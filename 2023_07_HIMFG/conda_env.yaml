@@ -1,9 +1,10 @@
+name: Talks-MolSysMT@uibcdf_3.10
 channels:
 - uibcdf
 - conda-forge
 - defaults
 dependencies:
-- python
+- python=3.10
 - numba
 - pip
 - numpy
@@ -13,3 +14,7 @@ dependencies:
 - openenm
 - nglview
 - jupyterlab
+- rise
+- jsonschema-with-format-nongpl
+- webcolors
+
